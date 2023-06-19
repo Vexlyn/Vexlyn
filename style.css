@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
+@keyframes scale-in-ver-center {
+  from {
+    transform: scaleY(0);
+    opacity: 1;
+  }
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
 body {
   background-image: linear-gradient(#005494, #003359);
   font-family: 'Poppins', sans-serif;
   color: white;
+}
+
+h1 {
+  animation: scale-in-ver-center 0.8s;
 }
   
